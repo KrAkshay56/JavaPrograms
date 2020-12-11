@@ -14,5 +14,7 @@ public class HardDiskComparator implements Comparator<Laptop>{
 			return -1;
 		}
 	}
+	
+	
 
 }
