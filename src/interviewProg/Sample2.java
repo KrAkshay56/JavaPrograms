@@ -20,5 +20,7 @@ public class Sample2  {
 		}
 		return sum;
 	}
-
+//int[] arr={10,20,30};
+	//for(int a:arr){
+	//print(a)}
 }
