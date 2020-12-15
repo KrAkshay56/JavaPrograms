@@ -13,6 +13,7 @@ public class DescendingTreeMap {
 		map.put(2, "Two");
 		System.out.println(map);
 		System.out.println(map.descendingMap());
+		System.out.println();
 	}
 
 }
