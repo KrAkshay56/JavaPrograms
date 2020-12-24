@@ -12,7 +12,7 @@ public class SwapArrayListElement {
 		list.add(4);
 		list.add(5);
 		System.out.println(list);
-		Collections.swap(list, 0, list.size()-1);
+		Collections.swap(list, 3, 2);
 		System.out.println(list);
 	}
 

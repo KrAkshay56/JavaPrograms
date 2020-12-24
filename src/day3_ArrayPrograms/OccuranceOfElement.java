@@ -2,10 +2,10 @@ package day3_ArrayPrograms;
 
 public class OccuranceOfElement {
 	
-	public static int occurance(int[] arr,int element) {
+	public static int occurance(int[] arr,int value) {
 		int count=0;
 		for(int i=0;i<arr.length;i++) {
-			if(arr[i]==element) {
+			if(arr[i]==value) {
 				count++;
 			}
 		}
