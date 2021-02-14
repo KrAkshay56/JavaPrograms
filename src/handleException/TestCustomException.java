@@ -4,7 +4,7 @@ public class TestCustomException {
 	
 	public static void generateVoterID(int age) throws InvalidAgeException {
 		if(age<18) {
-			throw new InvalidAgeException();
+			throw new InvalidAgeException("not eligible");
 		}
 		else
 		{

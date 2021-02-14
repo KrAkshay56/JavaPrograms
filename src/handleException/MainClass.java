@@ -11,7 +11,6 @@ public class MainClass {
 		try {
 			TestCustomException.generateVoterID(age);
 		} catch (InvalidAgeException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 	}
