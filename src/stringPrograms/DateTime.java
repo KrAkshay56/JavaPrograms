@@ -7,5 +7,8 @@ public static void main(String[] args) {
 	System.out.println("heello");
 	Date date = new Date();
 	System.out.println(date.toString());
+	String currentdate=date.toString();
+	String[] yyyy=currentdate.split("");
+	
 }
 }
